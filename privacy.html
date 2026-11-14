@@ -4,7 +4,7 @@
 <p class="sub">Post, last updated November 14, 2026</p>
 <p>Post is a desktop email client used only by its author with his own Google accounts.</p>
 <h2>What Post accesses</h2>
-<p>With the Google account owner's permission (the <code>gmail.modify</code> scope), Post reads messages, changes labels, archives, moves to trash, and sends mail. It never deletes mail permanently.</p>
+<p>With the Google account owner's permission (full Gmail access, <code>https://mail.google.com/</code>), Post reads messages, changes labels, archives, moves to trash, and sends mail. It also keeps an IMAP connection open to Gmail so it can show new mail as it arrives. It does not permanently delete mail.</p>
 <h2>Where the data goes</h2>
 <p>Everything stays on the owner's computer. Post talks directly to Google's Gmail API; there is no Post server, and no data is sent to, sold to, or shared with any third party. Sign-in tokens and a small list of snoozed messages are stored locally, readable only by the owner.</p>
 <h2>Use of Google user data</h2>
